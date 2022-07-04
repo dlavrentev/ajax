@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top:calc(100vh/3);
+}
+.container p, .container span{
+  font-size:30px;
+}
+body{
+  background-color: lightblue;
+}
+#city-input{
+  border:none;
+  border-radius:8px;
+  padding:8px;
+}
+#city-button{
+  padding:8px;
+  border:none;
+  border-radius:8px;
+  background-color: orange;
+  color:white;
+}
